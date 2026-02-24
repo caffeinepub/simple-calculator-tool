@@ -1,0 +1,6 @@
+{
+  "frontend/src/App.tsx": "Main calculator application component with two number inputs, four operation buttons (add, subtract, multiply, divide), result display, input validation, division-by-zero error handling, and a calculation history section that displays successful calculations in reverse chronological order with a clear button.",
+  "frontend/src/index.css": "Global styles with warm, earthy OKLCH color system featuring coral/orange primary colors (avoiding blue/purple), supporting both light and dark modes with proper contrast ratios.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Inter font family, custom border radius values, enhanced shadows, and extended color tokens mapped to the warm color palette.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as the calculator performs all operations client-side without backend queries."
+}

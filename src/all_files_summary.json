@@ -1,0 +1,15 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no functionality; the calculator operates entirely client-side.",
+  "feature_evidence.json": "Feature evidence report documenting four implemented features related to calculation history display, automatic updates, clear button, and consistent styling with warm coral/orange design.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing the calculator app, warm OKLCH color system, Tailwind configuration, and empty query hooks file.",
+  "frontend/index.css": "Tailwind CSS with base layer defining CSS custom properties for a grayscale color system (no hue) supporting light and dark modes.",
+  "frontend/index.html": "HTML entry point with root div and module script reference to main.tsx for the Simple Calculator Tool.",
+  "frontend/src/App.tsx": "Main React calculator component with two number inputs, four arithmetic operations, result display with validation, and a calculation history section with clear functionality.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages an ICP actor instance with Internet Identity authentication, invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle.",
+  "frontend/src/hooks/useQueries.ts": "Intentionally empty file with export statement; calculator performs all operations client-side without backend queries.",
+  "frontend/src/index.css": "Tailwind CSS with OKLCH color system using warm coral/orange hues (hue ~25-40) for light and dark modes with comprehensive design tokens.",
+  "frontend/src/main.tsx": "React application entry point wrapping App with QueryClientProvider and InternetIdentityProvider for state management and authentication.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Inter font, OKLCH color mappings, custom border radius values, enhanced shadows, and animation keyframes for accordion components.",
+  "project_state.json": "Project state file tracking a simple calculator web application with 11 implemented features including basic arithmetic operations, input validation, calculation history, and modern minimalist design. Contains architectural notes, existing features mapped to requirements, and a new feature request (AR-1) for creating a scientific calculator mode with advanced operations."
+}
